@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a frontend developer">
+  <title>Arvind | Frontend Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-icon">&lt;/&gt;</span>
+      ARVIND<span class="logo-highlight">DEV</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Let's Connect ↗</a>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Frontend Developer in Progress
+        </div>
+
+        <h1>
+          Build Your<br>
+          <span class="gradient-text">Digital Future.</span>
+        </h1>
+
+        <p class="hero-description">
+          Hi, I'm Arvind. I build modern, responsive and
+          user-friendly websites using HTML and CSS.
+          I'm continuously learning and improving my
+          frontend development skills.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore Projects <span>→</span>
+          </a>
+
+          <a href="#about" class="btn btn-secondary">
+            About Me ↗
+          </a>
+        </div>
+
+        <div class="hero-highlights">
+          <span>✓ Responsive Design</span>
+          <span>✓ Creative UI</span>
+        </div>
+      </div>
+
+      <!-- CSS Coding Editor -->
+      <div class="hero-visual">
+
+        <div class="floating-badge badge-top">
+          <span>✦</span>
+          Creative Developer
+        </div>
+
+        <div class="code-window">
+          <div class="window-header">
+            <div class="window-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="file-name">portfolio.html</span>
+            <span class="window-menu">•••</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="purple">const</span> developer = {</p>
+            <p class="indent"><span class="blue">name</span>: <span class="green">'Arvind'</span>,</p>
+            <p class="indent"><span class="blue">role</span>: <span class="green">'Frontend Developer'</span>,</p>
+            <p class="indent"><span class="blue">skills</span>: [</p>
+            <p class="indent double"><span class="orange">'HTML'</span>, <span class="orange">'CSS'</span>,</p>
+            <p class="indent double"><span class="orange">'JavaScript'</span></p>
+            <p class="indent">],</p>
+            <p class="indent"><span class="blue">goal</span>: <span class="green">'Build amazing things'</span></p>
+            <p>};</p>
+            <p class="code-comment">// Learning. Building. Growing. 🚀</p>
+            <p><span class="purple">return</span> developer;</p>
+          </div>
+
+          <div class="code-footer">
+            <span>● Ready to create</span>
+            <span>HTML / CSS</span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-bottom">
+          <span>✧</span>
+          Turning Ideas Into Reality
+        </div>
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+      </div>
+
+      <div class="hero-glow"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <span class="section-label">GET TO KNOW ME</span>
+      <h2>Designing Ideas Into <span class="gradient-text">Reality.</span></h2>
+      <p>
+        I enjoy creating clean and attractive websites.
+        My current focus is strengthening my HTML and CSS
+        skills, building practical projects, and preparing
+        for a career in frontend development.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <span class="section-label">MY TOOLKIT</span>
+      <h2>Skills I'm <span class="gradient-text">Building.</span></h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon html-icon">5</span>
+          <h3>HTML5</h3>
+          <p>Structure & Semantics</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon css-icon">3</span>
+          <h3>CSS3</h3>
+          <p>Layouts & Animations</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon js-icon">JS</span>
+          <h3>JavaScript</h3>
+          <p>Next Learning Goal</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon responsive-icon">↔</span>
+          <h3>Responsive UI</h3>
+          <p>Mobile & Desktop</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <span class="section-label">SELECTED WORK</span>
+      <h2>Projects I've <span class="gradient-text">Created.</span></h2>
+      <p class="section-description">
+        A selection of my frontend practice projects.
+      </p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview hospital-preview">
+            <span class="preview-symbol">✚</span>
+            <span class="preview-title">CarePlus Hospital</span>
+            <span class="preview-subtitle">Healthcare Website</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">HTML · CSS</span>
+            <h3>Hospital Website</h3>
+            <p>A modern website layout for a healthcare institution.</p>
+            <a href="https://hospital-website-arvind.netlify.app/" target="_blank" rel="noopener noreferrer">
+              Live Demo ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview shop-preview">
+            <span class="preview-symbol">🛍</span>
+            <span class="preview-title">ShopSphere</span>
+            <span class="preview-subtitle">Online Marketplace</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">HTML · CSS</span>
+            <h3>Online Marketplace</h3>
+            <p>A responsive shopping interface with product sections.</p>
+            <a href="https://online-marketplace-arvind.netlify.app/" target="_blank" rel="noopener noreferrer">
+              Live Demo ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview portfolio-preview">
+            <span class="preview-symbol">&lt;/&gt;</span>
+            <span class="preview-title">Creative Web Design</span>
+            <span class="preview-subtitle">More Projects Coming Soon</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">HTML · CSS</span>
+            <h3>CSS Experiments</h3>
+            <p>Exploring responsive layouts, transitions and visual effects.</p>
+            <a href="#contact">Get In Touch ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <span class="section-label">LET'S CONNECT</span>
+      <h2>Have a Project <span class="gradient-text">in Mind?</span></h2>
+      <p>I'm learning, building and looking forward to new opportunities.</p>
+      <a class="btn btn-primary" href="https://github.com/Arvindkunwar123" target="_blank" rel="noopener noreferrer">
+        Visit My GitHub ↗
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-icon">&lt;/&gt;</span>
+      ARVIND<span class="logo-highlight">DEV</span>
+    </a>
+    <p>Designed and built with HTML & CSS.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+</body>
+</html>
